@@ -1,5 +1,5 @@
 # TestProject
-Explore filesystem under given directory using SPA on browser.  Uploads, deletes.  
+Explore filesystem under given root directory using SPA on browser.  Uploads, deletes, deep links.
 
 No moves, copies or searches yet.
 
