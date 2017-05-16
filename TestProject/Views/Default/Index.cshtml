@@ -1,0 +1,58 @@
+﻿@model string
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestProject</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="main-content">
+        <header>
+            <h1><span id="status"></span> <span id="current"></span></h1>
+            <button id="action" class="actbutton"></button>
+        </header>
+        <hr />
+        <div class="listing page">
+            <table>
+                <thead>
+                    <tr>
+                        <th title="Action"><img src="~/images/Repair.png" /></th>
+                        <th>Size</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody class="list"></tbody>
+            </table>
+        </div>
+        <div class="upload page">
+            <form name="uploadform" method="post" enctype="multipart/form-data" id="uploadform"
+                  action="http://localhost:55749/browse">
+                <div>
+                    <label for="file">File to Upload &nbsp;</label>
+                    <input name="file" type="file" />
+                </div>
+                <div>
+                    <br />
+                    <input type="button" value="Submit" class="actbutton" id="upbutton" />
+                </div>
+            </form>        
+        </div>
+        <div class="error page">
+
+        </div>
+        <hr />
+    </div>
+    <footer>
+        <p>&copy; 2017 Guy..Lister</p>
+    </footer>
+    <script src="~/Js/jquery.js"></script>
+    <script>
+        var indeep = '@Model';
+    </script>
+    <script src="~/Js/site.js"></script>
+</body>
+</html>
+

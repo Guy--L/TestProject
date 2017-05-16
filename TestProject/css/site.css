@@ -1,0 +1,51 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.main-content {
+    margin-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+header {
+    background-color: lavender;
+}
+
+.actbutton {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+td img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+td img:hover {
+    background-color: khaki;
+}
+tr td.number {
+    padding-right: 15px;
+}
+
+tr td.navigate {
+    cursor: pointer;
+}
+
+tr td.navigate:hover {
+    background-color: khaki;
+}
+
+thead th {
+    background-color: aliceblue;
+}
